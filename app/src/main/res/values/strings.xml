@@ -9,4 +9,5 @@
     <string name="saturday">Saturday</string>
     <string name="which_day">Day?</string>
     <string name="img_content">Time Table Data</string>
+    <string name="faculty">Faculties</string>
 </resources>

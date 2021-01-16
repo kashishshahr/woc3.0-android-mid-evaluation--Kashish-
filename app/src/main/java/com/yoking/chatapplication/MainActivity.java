@@ -28,4 +28,8 @@ public static String WHICHDAY="com.yoking.chatapplication.WHICHDAY";
         intent.putExtra(WHICHDAY,day);
         startActivity(intent);
     }
+    public void onFacultyClick(View view){
+        Intent intent=new Intent(this,FacultyActivity.class);
+        startActivity(intent);
+    }
 }
