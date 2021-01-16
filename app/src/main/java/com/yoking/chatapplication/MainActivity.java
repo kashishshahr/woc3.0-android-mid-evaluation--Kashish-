@@ -22,9 +22,9 @@ public static String WHICHDAY="com.yoking.chatapplication.WHICHDAY";
     public void onDayClick(View view){
         Intent intent=new Intent(this,TimeTableActivity.class);
         Button b=(Button)view;
-        TextView text=findViewById(R.id.textView2);
+
         String day=b.getText().toString();
-        text.setText(day);
+
         intent.putExtra(WHICHDAY,day);
         startActivity(intent);
     }
