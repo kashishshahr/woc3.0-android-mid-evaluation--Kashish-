@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatApplication">
-        <activity android:name=".FacultyActivity"
+        <activity android:name=".Lab_TimeTable_Activity"
             android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".FacultyActivity"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".TimeTableActivity"
             android:parentActivityName=".MainActivity" />

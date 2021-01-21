@@ -32,4 +32,7 @@ public static String WHICHDAY="com.yoking.chatapplication.WHICHDAY";
         Intent intent=new Intent(this,FacultyActivity.class);
         startActivity(intent);
     }
+    public void onLabClick(View view){
+      startActivity(new Intent(this,Lab_TimeTable_Activity.class));
+    }
 }

@@ -24,8 +24,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="353dp"
-        android:layout_height="368dp"
+        android:layout_width="358dp"
+        android:layout_height="425dp"
         android:layout_marginTop="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -103,18 +103,29 @@
             android:textSize="35sp"
             app:backgroundTint="#800080" />
 
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onLabClick"
+            android:tag="sat"
+            android:text="@string/lab"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            app:backgroundTint="#FB3E02" />
+
     </LinearLayout>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="260dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="286dp"
+        android:layout_height="81dp"
         android:onClick="onFacultyClick"
         android:text="@string/faculty"
         android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
